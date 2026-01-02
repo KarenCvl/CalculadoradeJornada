@@ -1,0 +1,15 @@
+nome = input('Digite seu nome:')
+materia = input('Digite qual a sua disciplina:')
+horas_meta = float(input('Digite a meta em horas de estudo:'))
+horas_acumuladas = float(input('Quantas horas você já estudou?'))
+horas_restantes = float
+
+horas_restantes = horas_meta - horas_acumuladas
+
+print(f"Olá {nome}! Você está estudando {materia}, faltam apenas {horas_restantes} horas para você atingir a sua meta. Não desista!")    
+
+if horas_restantes <= 0:
+    print("Parabéns, meta batida!")
+else:
+    print("Falta um pouco mais de empenho!")
+    
